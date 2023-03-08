@@ -1,0 +1,84 @@
+/* colors lightest to darkest: EEEEEE, E8D5C4, FFF1DC, 3A98B9 */
+
+body{
+    text-align: center;
+    background-color: #E8D5C4;
+}
+
+h1{
+    font-size: 5rem;
+    font-family: 'Rampart One', cursive;
+    color: #3A98B9;
+}
+
+.content{
+    margin: auto;
+}
+
+.signature{
+    width: 150px;
+    height:200px;
+    border: none;
+    margin:10px;
+    background-image: url("images/B-flat-major_g-minor.svg.png");
+}
+
+.note{
+    text-align: left;
+    width: 150px;
+    height:150px;
+    border: 5px solid #f2f2f2;
+    border-radius: 15px;
+    margin:10px;
+    font-size: 3rem;
+    font-family: 'Rampart One', cursive;
+    cursor: pointer;
+}
+
+.pressed {
+    box-shadow: 0 0 1px #888,0 1px 0 #fff, 0 0 0 #C0C0C0, 0 0px 30px rgba(#444, 0.15), 2px 2px 4px rgba(#444, 0.25), -2px 2px 4px rgba(#444, 0.25), 0 0px 4px rgba(#444, 0.25);
+    transform: translateY(4px); 
+}
+
+
+.b{
+    background-image: url("images/b-note.png");
+    background-size: 150px 150px;
+}
+
+.c{
+    background-image: url("images/c-note.png");
+    background-size: 150px 150px;
+}
+
+.d{
+    background-image: url("images/d-note.png");
+    background-size: 150px 150px;
+}
+
+.e{
+    background-image: url("images/e-note.png");
+    background-size: 150px 150px;
+}
+
+.f{
+    background-image: url("images/f-note.png");
+    background-size: 150px 150px;
+}
+
+.g{
+    background-image: url("images/g-note.png");
+    background-size: 150px 150px;
+}
+
+.a{
+    background-image: url("images/a-note.png");
+    background-size: 150px 150px;
+}
+
+.info{
+    border:1px dashed #EEEEEE;
+    width: 150px;
+    margin: 10px;
+    color:#3A98B9
+}
